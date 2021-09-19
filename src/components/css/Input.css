@@ -1,0 +1,25 @@
+
+.Input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top:10px;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 100%;
+}
+   .Input input {
+    width: 100%;
+    border:1px solid lightgrey;
+    border-radius: 3px;
+  }
+   .Input label{
+     font-size: 17px;
+   }
+
+  .Input span{
+    margin-top:5px;
+    font-size: 12px;
+    color:red;
+  }
