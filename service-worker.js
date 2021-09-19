@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Vladimir9812/movie-database/build/precache-manifest.4ce65a7281bab4ca18e65a8388632a77.js"
+  "/movie-database/build/precache-manifest.6f36a9873d99c954d73a61a7c36c0e0f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Vladimir9812/movie-database/build/index.html", {
+workbox.routing.registerNavigationRoute("/movie-database/build/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
