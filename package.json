@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Vladimir9812/movie-database/static",
+  "homepage": "https://github.com/Vladimir9812/movie-database/build/static",
   "name": "react-movie-database",
   "version": "0.1.0",
   "private": true,
